@@ -4,18 +4,19 @@ push:
 branches: [ "main" ]
 
 jobs:
-  build:
+build:
   runs-on: ubuntu-latest
 
-  steps:
-- name: Chekout Code
-- uses: actions/checkout@v3
 
-- name: Build step 
-- run: echo "Building project..."
+steps:
+name: Chekout Code
+uses: actions/checkout@v3
 
-- name: Test step
-- runs: echo "Running tests..."
+name: Build step 
+run: echo "Building project..."
 
-- name: Deploy steo
-- run: echo "Deploying project..."
+ name: Test step
+ runs: echo "Running tests..."
+
+ name: Deploy steo
+ run: echo "Deploying project..."
