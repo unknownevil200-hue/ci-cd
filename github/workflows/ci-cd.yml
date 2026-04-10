@@ -15,7 +15,7 @@ jobs:
 - run: echo "Building project..."
 
 - name: Test step
-- runs: echo "Testing tests..."
+- runs: echo "Running tests..."
 
 - name: Deploy steo
 - run: echo "Deploying project..."
